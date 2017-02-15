@@ -26,8 +26,8 @@ detect_memory() {
   esac
 }
 
-export PATH="$HOME/.heroku/node/bin:$HOME/.heroku/yarn/bin:$PATH:$HOME/bin:$HOME/node_modules/.bin:$HOME/parse_live"
-export NODE_HOME="$HOME/.heroku/node"
+export PATH="$HOME/parse_live/.heroku/node/bin:$HOME/.heroku/yarn/bin:$PATH:$HOME/bin:$HOME/parse_live/node_modules/.bin:$HOME/parse_live"
+export NODE_HOME="$HOME/parse_live/.heroku/node"
 export NODE_ENV=${NODE_ENV:-production}
 
 calculate_concurrency
